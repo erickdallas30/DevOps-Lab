@@ -7,7 +7,7 @@ const Rollbar = require('rollbar');
 const {SERVER_PORT, ROLLBAR_TOKEN} = process.env;
 
 // include and initialize the rollbar library with your access token
-var Rollbar = require('rollbar')
+
 var rollbar = new Rollbar({
   accessToken: ROLLBAR_TOKEN,
   captureUncaught: true,
